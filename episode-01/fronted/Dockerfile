@@ -3,7 +3,7 @@ FROM node:14 as build
 # Set working directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
+# Install dependencies
 COPY package*.json ./
 RUN npm install
 
