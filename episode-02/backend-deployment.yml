@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ProCodingTech/mern-episode-02-backend:latest
+        image: arehmanse/mern-episode-02-backend:latest
         ports:
         - containerPort: 5000
       volumes:
