@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ProCodingTech/mern-episode-02-frontend:latest
+        image: arehmanse/mern-episode-02-frontend:latest
         ports:
         - containerPort: 80
 ---
